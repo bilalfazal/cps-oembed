@@ -1,0 +1,343 @@
+I, [2016-01-04T10:05:40.208874 #24430]  INFO -- default-centos-67: -----> Cleaning up any prior instances of <default-centos-67>
+I, [2016-01-04T10:05:40.209507 #24430]  INFO -- default-centos-67: -----> Destroying <default-centos-67>...
+I, [2016-01-04T10:05:42.727069 #24430]  INFO -- default-centos-67: ==> default: Forcing shutdown of VM...
+I, [2016-01-04T10:05:43.840031 #24430]  INFO -- default-centos-67: ==> default: Destroying VM and associated drives...
+I, [2016-01-04T10:05:44.241942 #24430]  INFO -- default-centos-67: Vagrant instance <default-centos-67> destroyed.
+I, [2016-01-04T10:05:44.248758 #24430]  INFO -- default-centos-67: Finished destroying <default-centos-67> (0m4.03s).
+I, [2016-01-04T10:05:44.249063 #24430]  INFO -- default-centos-67: -----> Testing <default-centos-67>
+I, [2016-01-04T10:05:44.249162 #24430]  INFO -- default-centos-67: -----> Creating <default-centos-67>...
+I, [2016-01-04T10:05:45.492857 #24430]  INFO -- default-centos-67: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2016-01-04T10:05:45.673222 #24430]  INFO -- default-centos-67: ==> default: Importing base box 'centos-67'...
+I, [2016-01-04T10:05:55.468155 #24430]  INFO -- default-centos-67: [KProgress: 10%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 70%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2016-01-04T10:05:56.126066 #24430]  INFO -- default-centos-67: ==> default: Setting the name of the VM: kitchen-cps-oembed-default-centos-67_default_1451919956081_88705
+I, [2016-01-04T10:05:57.399559 #24430]  INFO -- default-centos-67: ==> default: Clearing any previously set network interfaces...
+I, [2016-01-04T10:05:57.480604 #24430]  INFO -- default-centos-67: ==> default: Preparing network interfaces based on configuration...
+I, [2016-01-04T10:05:57.480665 #24430]  INFO -- default-centos-67:     default: Adapter 1: nat
+I, [2016-01-04T10:05:57.527357 #24430]  INFO -- default-centos-67: ==> default: Forwarding ports...
+I, [2016-01-04T10:05:57.585797 #24430]  INFO -- default-centos-67:     default: 22 => 2222 (adapter 1)
+I, [2016-01-04T10:05:57.726854 #24430]  INFO -- default-centos-67: ==> default: Booting VM...
+I, [2016-01-04T10:05:57.891419 #24430]  INFO -- default-centos-67: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2016-01-04T10:05:58.207943 #24430]  INFO -- default-centos-67:     default: SSH address: 127.0.0.1:2222
+I, [2016-01-04T10:05:58.208082 #24430]  INFO -- default-centos-67:     default: SSH username: vagrant
+I, [2016-01-04T10:05:58.208210 #24430]  INFO -- default-centos-67:     default: SSH auth method: private key
+I, [2016-01-04T10:06:13.345010 #24430]  INFO -- default-centos-67:     default: Warning: Connection timeout. Retrying...
+I, [2016-01-04T10:06:13.487861 #24430]  INFO -- default-centos-67:     default: Warning: Remote connection disconnect. Retrying...
+I, [2016-01-04T10:06:23.614682 #24430]  INFO -- default-centos-67:     default: Warning: Remote connection disconnect. Retrying...
+I, [2016-01-04T10:06:29.216015 #24430]  INFO -- default-centos-67:     default: 
+I, [2016-01-04T10:06:29.216074 #24430]  INFO -- default-centos-67:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2016-01-04T10:06:29.216101 #24430]  INFO -- default-centos-67:     default: this with a newly generated keypair for better security.
+I, [2016-01-04T10:06:29.847155 #24430]  INFO -- default-centos-67:     default: 
+I, [2016-01-04T10:06:29.847231 #24430]  INFO -- default-centos-67:     default: Inserting generated public key within guest...
+I, [2016-01-04T10:06:29.998578 #24430]  INFO -- default-centos-67:     default: Removing insecure key from the guest if it's present...
+I, [2016-01-04T10:06:30.092012 #24430]  INFO -- default-centos-67:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2016-01-04T10:06:31.014101 #24430]  INFO -- default-centos-67: ==> default: Machine booted and ready!
+I, [2016-01-04T10:06:31.014544 #24430]  INFO -- default-centos-67: ==> default: Checking for guest additions in VM...
+I, [2016-01-04T10:06:31.056631 #24430]  INFO -- default-centos-67:     default: The guest additions on this VM do not match the installed version of
+I, [2016-01-04T10:06:31.056707 #24430]  INFO -- default-centos-67:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2016-01-04T10:06:31.056746 #24430]  INFO -- default-centos-67:     default: prevent things such as shared folders from working properly. If you see
+I, [2016-01-04T10:06:31.056775 #24430]  INFO -- default-centos-67:     default: shared folder errors, please make sure the guest additions within the
+I, [2016-01-04T10:06:31.056797 #24430]  INFO -- default-centos-67:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2016-01-04T10:06:31.056813 #24430]  INFO -- default-centos-67:     default: your host and reload your VM.
+I, [2016-01-04T10:06:31.056835 #24430]  INFO -- default-centos-67:     default: 
+I, [2016-01-04T10:06:31.056863 #24430]  INFO -- default-centos-67:     default: Guest Additions Version: 4.3.30
+I, [2016-01-04T10:06:31.056890 #24430]  INFO -- default-centos-67:     default: VirtualBox Version: 5.0
+I, [2016-01-04T10:06:31.057171 #24430]  INFO -- default-centos-67: ==> default: Setting hostname...
+I, [2016-01-04T10:06:34.562563 #24430]  INFO -- default-centos-67: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2016-01-04T10:06:39.696451 #24430]  INFO -- default-centos-67: [SSH] Established
+I, [2016-01-04T10:06:39.696799 #24430]  INFO -- default-centos-67: Vagrant instance <default-centos-67> created.
+I, [2016-01-04T10:06:39.700592 #24430]  INFO -- default-centos-67: Finished creating <default-centos-67> (0m55.45s).
+I, [2016-01-04T10:06:39.700675 #24430]  INFO -- default-centos-67: -----> Converging <default-centos-67>...
+I, [2016-01-04T10:06:39.703094 #24430]  INFO -- default-centos-67: Preparing files for transfer
+I, [2016-01-04T10:06:39.703186 #24430]  INFO -- default-centos-67: Preparing dna.json
+I, [2016-01-04T10:06:39.706348 #24430]  INFO -- default-centos-67: Resolving cookbook dependencies with Berkshelf 4.0.1...
+I, [2016-01-04T10:06:51.214224 #24430]  INFO -- default-centos-67: Removing non-cookbook files before transfer
+I, [2016-01-04T10:06:51.310546 #24430]  INFO -- default-centos-67: Preparing validation.pem
+I, [2016-01-04T10:06:51.336716 #24430]  INFO -- default-centos-67: Preparing client.rb
+I, [2016-01-04T10:06:51.380979 #24430]  INFO -- default-centos-67: -----> Chef Omnibus installation detected (install only if missing)
+I, [2016-01-04T10:06:51.434323 #24430]  INFO -- default-centos-67: Transferring files to <default-centos-67>
+I, [2016-01-04T10:06:54.465419 #24430]  INFO -- default-centos-67: Starting Chef Client, version 12.5.1
+I, [2016-01-04T10:06:55.834364 #24430]  INFO -- default-centos-67: Creating a new client identity for default-centos-67 using the validator key.
+I, [2016-01-04T10:06:55.880184 #24430]  INFO -- default-centos-67: resolving cookbooks for run list: ["gd-test-helper", "cps-oembed"]
+I, [2016-01-04T10:07:06.927350 #24430]  INFO -- default-centos-67: Synchronizing Cookbooks:
+I, [2016-01-04T10:07:06.997057 #24430]  INFO -- default-centos-67:   - uwsgi-application (2.0.0)
+I, [2016-01-04T10:07:06.998456 #24430]  INFO -- default-centos-67:   - cps-oembed (0.0.1)
+I, [2016-01-04T10:07:07.003040 #24430]  INFO -- default-centos-67:   - gd-test-helper (1.0.3)
+I, [2016-01-04T10:07:07.008500 #24430]  INFO -- default-centos-67:   - gdp-base-linux (1.0.5)
+I, [2016-01-04T10:07:07.027516 #24430]  INFO -- default-centos-67:   - selinux (0.8.1)
+I, [2016-01-04T10:07:07.034683 #24430]  INFO -- default-centos-67:   - chef-handler-profiler (1.0.1)
+I, [2016-01-04T10:07:07.053033 #24430]  INFO -- default-centos-67:   - users (0.3.0)
+I, [2016-01-04T10:07:07.057604 #24430]  INFO -- default-centos-67:   - python-deployment (2.6.0)
+I, [2016-01-04T10:07:07.064897 #24430]  INFO -- default-centos-67:   - ssh-keys (1.2.8)
+I, [2016-01-04T10:07:07.075737 #24430]  INFO -- default-centos-67:   - ntp (1.7.0)
+I, [2016-01-04T10:07:07.089485 #24430]  INFO -- default-centos-67:   - scalarizr (1.2.0)
+I, [2016-01-04T10:07:07.091368 #24430]  INFO -- default-centos-67:   - yum-gd (0.3.0)
+I, [2016-01-04T10:07:07.111599 #24430]  INFO -- default-centos-67:   - opsmatic_support (0.1.7)
+I, [2016-01-04T10:07:07.114052 #24430]  INFO -- default-centos-67:   - opsmatic (0.1.26)
+I, [2016-01-04T10:07:07.116296 #24430]  INFO -- default-centos-67:   - sudo (2.7.1)
+I, [2016-01-04T10:07:07.118179 #24430]  INFO -- default-centos-67:   - openssh (1.5.2)
+I, [2016-01-04T10:07:07.158500 #24430]  INFO -- default-centos-67:   - sysctl (0.6.4)
+I, [2016-01-04T10:07:07.176300 #24430]  INFO -- default-centos-67:   - sysctl_support (1.0.0)
+I, [2016-01-04T10:07:07.215420 #24430]  INFO -- default-centos-67:   - splunk (2.0.0)
+I, [2016-01-04T10:07:07.252467 #24430]  INFO -- default-centos-67:   - chef-client (4.2.4)
+I, [2016-01-04T10:07:07.294441 #24430]  INFO -- default-centos-67:   - tmpwatch (1.0.2)
+I, [2016-01-04T10:07:07.301178 #24430]  INFO -- default-centos-67:   - datadog (2.1.0)
+I, [2016-01-04T10:07:07.349934 #24430]  INFO -- default-centos-67:   - datadog_support (2.0.7)
+I, [2016-01-04T10:07:07.351714 #24430]  INFO -- default-centos-67:   - firewall (2.3.0)
+I, [2016-01-04T10:07:07.412625 #24430]  INFO -- default-centos-67:   - nginx (2.7.4)
+I, [2016-01-04T10:07:07.473826 #24430]  INFO -- default-centos-67:   - s3cmd (0.1.3)
+I, [2016-01-04T10:07:07.484644 #24430]  INFO -- default-centos-67:   - uwsgi (0.2.6)
+I, [2016-01-04T10:07:07.487626 #24430]  INFO -- default-centos-67:   - git (4.0.3)
+I, [2016-01-04T10:07:07.494781 #24430]  INFO -- default-centos-67:   - python (1.5.5)
+I, [2016-01-04T10:07:07.508225 #24430]  INFO -- default-centos-67:   - nodejs (2.4.0)
+I, [2016-01-04T10:07:07.514954 #24430]  INFO -- default-centos-67:   - supervisor (0.4.12)
+I, [2016-01-04T10:07:07.528006 #24430]  INFO -- default-centos-67:   - swap (0.3.8)
+I, [2016-01-04T10:07:07.532834 #24430]  INFO -- default-centos-67:   - build-essential (2.2.4)
+I, [2016-01-04T10:07:07.534461 #24430]  INFO -- default-centos-67:   - chef_handler (1.1.7)
+I, [2016-01-04T10:07:07.555054 #24430]  INFO -- default-centos-67:   - yum (3.8.2)
+I, [2016-01-04T10:07:07.570207 #24430]  INFO -- default-centos-67:   - iptables (0.14.1)
+I, [2016-01-04T10:07:07.579997 #24430]  INFO -- default-centos-67:   - cron (1.6.1)
+I, [2016-01-04T10:07:07.590155 #24430]  INFO -- default-centos-67:   - ohai (2.0.2)
+I, [2016-01-04T10:07:07.597223 #24430]  INFO -- default-centos-67:   - apt (2.9.2)
+I, [2016-01-04T10:07:07.615788 #24430]  INFO -- default-centos-67:   - logrotate (1.7.0)
+I, [2016-01-04T10:07:07.624784 #24430]  INFO -- default-centos-67:   - chef-sugar (3.1.1)
+I, [2016-01-04T10:07:07.676351 #24430]  INFO -- default-centos-67:   - windows (1.38.3)
+I, [2016-01-04T10:07:07.690899 #24430]  INFO -- default-centos-67:   - bluepill (2.3.2)
+I, [2016-01-04T10:07:07.701088 #24430]  INFO -- default-centos-67:   - runit (1.7.6)
+I, [2016-01-04T10:07:07.716869 #24430]  INFO -- default-centos-67:   - dmg (2.2.0)
+I, [2016-01-04T10:07:07.720915 #24430]  INFO -- default-centos-67:   - yum-epel (0.6.5)
+I, [2016-01-04T10:07:07.741066 #24430]  INFO -- default-centos-67:   - ark (0.9.0)
+I, [2016-01-04T10:07:07.748380 #24430]  INFO -- default-centos-67:   - homebrew (1.9.2)
+I, [2016-01-04T10:07:07.757032 #24430]  INFO -- default-centos-67:   - rsyslog (2.2.0)
+I, [2016-01-04T10:07:07.757426 #24430]  INFO -- default-centos-67:   - packagecloud (0.1.1)
+I, [2016-01-04T10:07:07.761100 #24430]  INFO -- default-centos-67:   - 7-zip (1.0.3)
+I, [2016-01-04T10:07:07.761133 #24430]  INFO -- default-centos-67: Compiling Cookbooks...
+I, [2016-01-04T10:07:07.966697 #24430]  INFO -- default-centos-67: Recipe: gd-test-helper::node-attributes
+I, [2016-01-04T10:07:09.595641 #24430]  INFO -- default-centos-67:  (up to date)
+I, [2016-01-04T10:07:09.607645 #24430]  INFO -- default-centos-67: [2016-01-04T10:05:46-05:00] WARN: ********* Creating fake User Data Bags for testing purposes *********
+I, [2016-01-04T10:07:09.623224 #24430]  INFO -- default-centos-67: Recipe: chef_handler::default
+I, [2016-01-04T10:07:09.624492 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:09.625869 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:09.625910 #24430]  INFO -- default-centos-67:     - change mode from '' to '0755'
+I, [2016-01-04T10:07:09.625928 #24430]  INFO -- default-centos-67:     - change owner from '' to 'root'
+I, [2016-01-04T10:07:09.782771 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:09.785942 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:09.785989 #24430]  INFO -- default-centos-67:   Recipe: <Dynamically Defined Resource>
+I, [2016-01-04T10:07:09.789543 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:09.790529 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:09.790567 #24430]  INFO -- default-centos-67:       - update content in file /tmp/kitchen/handlers/README from none to 9e3554
+I, [2016-01-04T10:07:09.790587 #24430]  INFO -- default-centos-67:       --- /tmp/kitchen/handlers/README	2016-01-04 10:05:46.000000000 -0500
+I, [2016-01-04T10:07:09.790603 #24430]  INFO -- default-centos-67:       +++ /tmp/kitchen/handlers/.README20160104-2862-mfgify	2016-01-04 10:05:46.000000000 -0500
+I, [2016-01-04T10:07:09.790618 #24430]  INFO -- default-centos-67:       @@ -1 +1,2 @@
+I, [2016-01-04T10:07:09.791903 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:09.907588 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:09.909649 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:09.909695 #24430]  INFO -- default-centos-67:   
+I, [2016-01-04T10:07:09.911851 #24430]  INFO -- default-centos-67: Recipe: chef-handler-profiler::default
+I, [2016-01-04T10:07:11.645114 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:11.645252 #24430]  INFO -- default-centos-67: - install version 0.0.2 of package chef-handler-profiler
+I, [2016-01-04T10:07:11.657732 #24430]  INFO -- default-centos-67:   * chef_handler[Chef::Handler::Profiler] action enable/opt/chef/embedded/lib/ruby/gems/2.1.0/gems/chef-handler-profiler-0.0.2/lib/chef/handler/chef_profiler.rb:12: warning: already initialized constant Chef::Handler::Profiler::VERSION
+I, [2016-01-04T10:07:11.657788 #24430]  INFO -- default-centos-67: /opt/chef/embedded/lib/ruby/gems/2.1.0/gems/chef-handler-profiler-0.0.2/lib/chef/handler/chef_profiler.rb:12: warning: previous definition of VERSION was here
+I, [2016-01-04T10:07:11.657820 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:11.657846 #24430]  INFO -- default-centos-67:     - load chef/handler/chef_profiler
+I, [2016-01-04T10:07:11.658548 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:11.658597 #24430]  INFO -- default-centos-67:     - enable chef_handler[Chef::Handler::Profiler] as a exception handler
+I, [2016-01-04T10:07:11.667345 #24430]  INFO -- default-centos-67: Recipe: chef-sugar::default
+I, [2016-01-04T10:07:16.946816 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:16.946877 #24430]  INFO -- default-centos-67:     - install version 3.1.1 of package chef-sugar
+I, [2016-01-04T10:07:16.981711 #24430]  INFO -- default-centos-67: [2016-01-04T10:05:53-05:00] WARN: Cloning resource attributes for firewall[default] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:16.981763 #24430]  INFO -- default-centos-67: [2016-01-04T10:05:53-05:00] WARN: Previous firewall[default]: /tmp/kitchen/cache/cookbooks/firewall/recipes/default.rb:22:in `from_file'
+I, [2016-01-04T10:07:16.981780 #24430]  INFO -- default-centos-67: [2016-01-04T10:05:53-05:00] WARN: Current  firewall[default]: /tmp/kitchen/cache/cookbooks/sysctl_support/recipes/default.rb:6:in `from_file'
+I, [2016-01-04T10:07:16.985108 #24430]  INFO -- default-centos-67: [2016-01-04T10:05:53-05:00] WARN: Cloning resource attributes for firewall[default] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:16.985147 #24430]  INFO -- default-centos-67: [2016-01-04T10:05:53-05:00] WARN: Previous firewall[default]: /tmp/kitchen/cache/cookbooks/sysctl_support/recipes/default.rb:6:in `from_file'
+I, [2016-01-04T10:07:16.985164 #24430]  INFO -- default-centos-67: [2016-01-04T10:05:53-05:00] WARN: Current  firewall[default]: /tmp/kitchen/cache/cookbooks/gdp-base-linux/recipes/default.rb:17:in `from_file'
+I, [2016-01-04T10:07:17.026908 #24430]  INFO -- default-centos-67: Recipe: datadog::dd-handler
+I, [2016-01-04T10:07:19.397171 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:19.397918 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:19.445819 #24430]  INFO -- default-centos-67:   * chef_handler[Chef::Handler::Datadog] action enable
+I, [2016-01-04T10:07:19.445872 #24430]  INFO -- default-centos-67:     - load chef/handler/datadog
+I, [2016-01-04T10:07:19.445890 #24430]  INFO -- default-centos-67:     - enable chef_handler[Chef::Handler::Datadog] as a report handler
+I, [2016-01-04T10:07:19.445906 #24430]  INFO -- default-centos-67:     - enable chef_handler[Chef::Handler::Datadog] as a exception handler
+I, [2016-01-04T10:07:19.451479 #24430]  INFO -- default-centos-67: Recipe: opsmatic::handler
+I, [2016-01-04T10:07:21.400078 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:21.400135 #24430]  INFO -- default-centos-67:     - upgrade package chef-handler-opsmatic from uninstalled to 0.0.18
+I, [2016-01-04T10:07:21.418274 #24430]  INFO -- default-centos-67:   * chef_handler[Chef::Handler::Opsmatic] action enable
+I, [2016-01-04T10:07:21.418327 #24430]  INFO -- default-centos-67:     - load chef/handler/opsmatic
+I, [2016-01-04T10:07:21.418344 #24430]  INFO -- default-centos-67:     - enable chef_handler[Chef::Handler::Opsmatic] as a report handler
+I, [2016-01-04T10:07:21.418358 #24430]  INFO -- default-centos-67:     - enable chef_handler[Chef::Handler::Opsmatic] as a exception handler
+I, [2016-01-04T10:07:22.452366 #24430]  INFO -- default-centos-67: [2016-01-04T10:05:59-05:00] WARN: 
+I, [2016-01-04T10:07:23.476610 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: scalarizr-openstack
+I, [2016-01-04T10:07:23.476681 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: scalarizr-openstack
+I, [2016-01-04T10:07:23.489930 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Cloning resource attributes for group[Dev-Ops] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:23.489985 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Previous group[Dev-Ops]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:28:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.490005 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Current  group[Dev-Ops]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:28:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.490645 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Cloning resource attributes for group[Dev-Ops] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:23.490678 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Previous group[Dev-Ops]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:28:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.490696 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Current  group[Dev-Ops]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:28:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.491661 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Cloning resource attributes for group[Dev-Ops] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:23.491697 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Previous group[Dev-Ops]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:28:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.491718 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Current  group[Dev-Ops]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:28:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.492698 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Cloning resource attributes for group[Dev-Ops] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:23.492731 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Previous group[Dev-Ops]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:28:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.492765 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Current  group[Dev-Ops]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:28:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.493656 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Cloning resource attributes for group[Dev-Ops] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:23.493685 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Previous group[Dev-Ops]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:28:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.493702 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Current  group[Dev-Ops]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:28:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.494750 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Cloning resource attributes for group[Dev-Ops] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:23.494781 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Previous group[Dev-Ops]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:28:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.494797 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Current  group[Dev-Ops]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:28:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.496290 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Cloning resource attributes for group[Dev-Ops] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:23.496332 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Previous group[Dev-Ops]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:28:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.496348 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Current  group[Dev-Ops]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:28:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.496468 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Cloning resource attributes for group[Dev-Ops] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:23.497529 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Previous group[Dev-Ops]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:28:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.497569 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Current  group[Dev-Ops]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:28:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.501851 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Cloning resource attributes for user[rabdill] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:23.501896 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Previous user[rabdill]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:25:in `block (2 levels) in from_file'
+I, [2016-01-04T10:07:23.501922 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Current  user[rabdill]: /tmp/kitchen/cache/cookbooks/users/recipes/default.rb:58:in `block in from_file'
+I, [2016-01-04T10:07:23.554991 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: environment: 
+I, [2016-01-04T10:07:23.697597 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: environment: 
+I, [2016-01-04T10:07:23.724743 #24430]  INFO -- default-centos-67: Recipe: ohai::default
+I, [2016-01-04T10:07:23.734935 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:23.734992 #24430]  INFO -- default-centos-67:     - create new directory /etc/chef/ohai_plugins
+I, [2016-01-04T10:07:23.837925 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:23.839867 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:23.839932 #24430]  INFO -- default-centos-67:   Recipe: <Dynamically Defined Resource>
+I, [2016-01-04T10:07:23.845597 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:23.848236 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:23.848290 #24430]  INFO -- default-centos-67:       - update content in file /etc/chef/ohai_plugins/README from none to 775fa7
+I, [2016-01-04T10:07:23.848309 #24430]  INFO -- default-centos-67:       --- /etc/chef/ohai_plugins/README	2016-01-04 10:06:00.000000000 -0500
+I, [2016-01-04T10:07:23.848324 #24430]  INFO -- default-centos-67:       +++ /etc/chef/ohai_plugins/.README20160104-2862-1x57mz9	2016-01-04 10:06:00.000000000 -0500
+I, [2016-01-04T10:07:23.848338 #24430]  INFO -- default-centos-67:       @@ -1 +1,2 @@
+I, [2016-01-04T10:07:23.848352 #24430]  INFO -- default-centos-67:       +This directory contains custom plugins for Ohai.
+I, [2016-01-04T10:07:23.963678 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:23.963736 #24430]  INFO -- default-centos-67:       - restore selinux security context
+I, [2016-01-04T10:07:23.963756 #24430]  INFO -- default-centos-67:   
+I, [2016-01-04T10:07:23.964525 #24430]  INFO -- default-centos-67: Recipe: ohai::default
+I, [2016-01-04T10:07:23.965592 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Ohai::Config[:plugin_path] is set. Ohai::Config[:plugin_path] is deprecated and will be removed in future releases of ohai. Use ohai.plugin_path in your configuration file to configure :plugin_path for ohai.
+I, [2016-01-04T10:07:23.967568 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:00-05:00] WARN: Ohai::Config[:plugin_path] is set. Ohai::Config[:plugin_path] is deprecated and will be removed in future releases of ohai. Use ohai.plugin_path in your configuration file to configure :plugin_path for ohai.
+I, [2016-01-04T10:07:25.391449 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:25.391503 #24430]  INFO -- default-centos-67:     - re-run ohai and merge results into node attributes
+I, [2016-01-04T10:07:25.405140 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Cloning resource attributes for service[nginx] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:25.405189 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Previous service[nginx]: /tmp/kitchen/cache/cookbooks/nginx/recipes/package.rb:46:in `from_file'
+I, [2016-01-04T10:07:25.405206 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Current  service[nginx]: /tmp/kitchen/cache/cookbooks/nginx/recipes/default.rb:24:in `from_file'
+I, [2016-01-04T10:07:25.538783 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Cloning resource attributes for service[uwsgi] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:25.540120 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Previous service[uwsgi]: /tmp/kitchen/cache/cookbooks/uwsgi/recipes/init.rb:30:in `from_file'
+I, [2016-01-04T10:07:25.540159 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Current  service[uwsgi]: /tmp/kitchen/cache/cookbooks/python-deployment/recipes/common.rb:59:in `from_file'
+I, [2016-01-04T10:07:25.540176 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Cloning resource attributes for service[nginx] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:25.540190 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Previous service[nginx]: /tmp/kitchen/cache/cookbooks/nginx/recipes/default.rb:24:in `from_file'
+I, [2016-01-04T10:07:25.540203 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Current  service[nginx]: /tmp/kitchen/cache/cookbooks/python-deployment/recipes/nginx.rb:2:in `from_file'
+I, [2016-01-04T10:07:25.543446 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Cloning resource attributes for service[uwsgi] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:25.543493 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Previous service[uwsgi]: /tmp/kitchen/cache/cookbooks/python-deployment/recipes/common.rb:59:in `from_file'
+I, [2016-01-04T10:07:25.543844 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Current  service[uwsgi]: /tmp/kitchen/cache/cookbooks/python-deployment/recipes/uwsgi.rb:4:in `from_file'
+I, [2016-01-04T10:07:25.571736 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Cloning resource attributes for firewall[default] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:25.571794 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Previous firewall[default]: /tmp/kitchen/cache/cookbooks/gdp-base-linux/recipes/default.rb:17:in `from_file'
+I, [2016-01-04T10:07:25.571814 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Current  firewall[default]: /tmp/kitchen/cache/cookbooks/uwsgi-application/recipes/default.rb:26:in `from_file'
+I, [2016-01-04T10:07:25.609028 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Cloning resource attributes for firewall[default] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:25.609078 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Previous firewall[default]: /tmp/kitchen/cache/cookbooks/uwsgi-application/recipes/default.rb:26:in `from_file'
+I, [2016-01-04T10:07:25.609095 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Current  firewall[default]: /tmp/kitchen/cache/cookbooks/python-deployment/recipes/firewall.rb:3:in `from_file'
+I, [2016-01-04T10:07:25.610243 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Cloning resource attributes for firewall_rule[http] from prior resource (CHEF-3694)
+I, [2016-01-04T10:07:25.610289 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Previous firewall_rule[http]: /tmp/kitchen/cache/cookbooks/uwsgi-application/recipes/default.rb:28:in `from_file'
+I, [2016-01-04T10:07:25.610315 #24430]  INFO -- default-centos-67: [2016-01-04T10:06:02-05:00] WARN: Current  firewall_rule[http]: /tmp/kitchen/cache/cookbooks/python-deployment/recipes/firewall.rb:5:in `from_file'
+I, [2016-01-04T10:07:25.610919 #24430]  INFO -- default-centos-67:   Converging 221 resources
+I, [2016-01-04T10:07:25.617877 #24430]  INFO -- default-centos-67: Recipe: gd-test-helper::node-attributes
+I, [2016-01-04T10:07:25.628711 #24430]  INFO -- default-centos-67:  (up to date)
+I, [2016-01-04T10:07:25.630031 #24430]  INFO -- default-centos-67:   * directory[/tmp/serverspec/] action create
+I, [2016-01-04T10:07:25.735755 #24430]  INFO -- default-centos-67: - create new directory /tmp/serverspec/
+I, [2016-01-04T10:07:25.737849 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:25.740769 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:25.743265 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:25.743317 #24430]  INFO -- default-centos-67:     - change mode from '' to '0400'
+I, [2016-01-04T10:07:25.841650 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:25.844373 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:25.844420 #24430]  INFO -- default-centos-67:   * log[Dumping attributes to 'node.json'] action write
+I, [2016-01-04T10:07:25.844442 #24430]  INFO -- default-centos-67:   
+I, [2016-01-04T10:07:25.859226 #24430]  INFO -- default-centos-67:   * ruby_block[dump_node_attributes] action run
+I, [2016-01-04T10:07:25.859278 #24430]  INFO -- default-centos-67:     - execute the ruby block dump_node_attributes
+I, [2016-01-04T10:07:25.859294 #24430]  INFO -- default-centos-67: Recipe: chef_handler::default
+I, [2016-01-04T10:07:25.859308 #24430]  INFO -- default-centos-67:   * remote_directory[/tmp/kitchen/handlers] action nothing (skipped due to action :nothing)
+I, [2016-01-04T10:07:25.859322 #24430]  INFO -- default-centos-67: Recipe: chef-handler-profiler::default
+I, [2016-01-04T10:07:25.862776 #24430]  INFO -- default-centos-67:  (up to date)
+I, [2016-01-04T10:07:25.863275 #24430]  INFO -- default-centos-67:   * chef_handler[Chef::Handler::Profiler] action nothing (skipped due to action :nothing)
+I, [2016-01-04T10:07:25.864225 #24430]  INFO -- default-centos-67: Recipe: sysctl::service
+I, [2016-01-04T10:07:25.866293 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:25.873353 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:25.873406 #24430]  INFO -- default-centos-67:     - update content in file /etc/rc.d/init.d/procps from none to c9711d
+I, [2016-01-04T10:07:25.873423 #24430]  INFO -- default-centos-67:     --- /etc/rc.d/init.d/procps	2016-01-04 10:06:02.000000000 -0500
+I, [2016-01-04T10:07:25.873436 #24430]  INFO -- default-centos-67:     +++ /etc/rc.d/init.d/.procps20160104-2862-a4mn3s	2016-01-04 10:06:02.000000000 -0500
+I, [2016-01-04T10:07:25.873448 #24430]  INFO -- default-centos-67:     @@ -1 +1,31 @@
+I, [2016-01-04T10:07:25.873459 #24430]  INFO -- default-centos-67:     +#!/bin/bash
+I, [2016-01-04T10:07:25.873470 #24430]  INFO -- default-centos-67:     +#
+I, [2016-01-04T10:07:25.873481 #24430]  INFO -- default-centos-67:     +# /etc/rc.d/init.d/procps
+I, [2016-01-04T10:07:25.873492 #24430]  INFO -- default-centos-67:     +# chkconfig: 2345 95 05
+I, [2016-01-04T10:07:25.873503 #24430]  INFO -- default-centos-67:     +# description: procps compatible apply_sysctl
+I, [2016-01-04T10:07:25.873513 #24430]  INFO -- default-centos-67:     +#
+I, [2016-01-04T10:07:25.873524 #24430]  INFO -- default-centos-67:     +# this was installed by the sysctl cookbook
+I, [2016-01-04T10:07:25.873535 #24430]  INFO -- default-centos-67:     +# https://supermarket.chef.io/cookbooks/sysctl
+I, [2016-01-04T10:07:25.873546 #24430]  INFO -- default-centos-67:     +
+I, [2016-01-04T10:07:25.873556 #24430]  INFO -- default-centos-67:     +
+I, [2016-01-04T10:07:25.873581 #24430]  INFO -- default-centos-67:     +# Source function library.
+I, [2016-01-04T10:07:25.873593 #24430]  INFO -- default-centos-67:     +. /etc/rc.d/init.d/functions
+I, [2016-01-04T10:07:25.873604 #24430]  INFO -- default-centos-67:     +
+I, [2016-01-04T10:07:25.873624 #24430]  INFO -- default-centos-67:     +case "$1" in
+I, [2016-01-04T10:07:25.873634 #24430]  INFO -- default-centos-67:     +    start)
+I, [2016-01-04T10:07:25.873646 #24430]  INFO -- default-centos-67:     +        apply_sysctl
+I, [2016-01-04T10:07:25.873657 #24430]  INFO -- default-centos-67:     +    ;;
+I, [2016-01-04T10:07:25.873667 #24430]  INFO -- default-centos-67:     +    stop)
+I, [2016-01-04T10:07:25.873678 #24430]  INFO -- default-centos-67:     +    ;;
+I, [2016-01-04T10:07:25.873689 #24430]  INFO -- default-centos-67:     +    restart)
+I, [2016-01-04T10:07:25.873700 #24430]  INFO -- default-centos-67:     +        apply_sysctl
+I, [2016-01-04T10:07:25.873711 #24430]  INFO -- default-centos-67:     +    ;;
+I, [2016-01-04T10:07:25.873721 #24430]  INFO -- default-centos-67:     +    reload)
+I, [2016-01-04T10:07:25.873732 #24430]  INFO -- default-centos-67:     +        apply_sysctl
+I, [2016-01-04T10:07:25.873742 #24430]  INFO -- default-centos-67:     +    ;;
+I, [2016-01-04T10:07:25.873753 #24430]  INFO -- default-centos-67:     +    *)
+I, [2016-01-04T10:07:25.873764 #24430]  INFO -- default-centos-67:     +        echo "Usage: procps [start|stop|reload]"
+I, [2016-01-04T10:07:25.873776 #24430]  INFO -- default-centos-67:     +        exit 1
+I, [2016-01-04T10:07:25.873786 #24430]  INFO -- default-centos-67:     +    ;;
+I, [2016-01-04T10:07:25.873797 #24430]  INFO -- default-centos-67:     +esac
+I, [2016-01-04T10:07:25.955682 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:25.957556 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:26.108278 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:26.109026 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:26.109066 #24430]  INFO -- default-centos-67: Recipe: sysctl::default
+I, [2016-01-04T10:07:26.111490 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:26.113247 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:26.113280 #24430]  INFO -- default-centos-67:     - change mode from '' to '0755'
+I, [2016-01-04T10:07:26.113297 #24430]  INFO -- default-centos-67:     - change owner from '' to 'root'
+I, [2016-01-04T10:07:26.227267 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:26.228277 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:26.229663 #24430]  INFO -- default-centos-67:  (skipped due to action :nothing)
+I, [2016-01-04T10:07:26.229702 #24430]  INFO -- default-centos-67:   * ruby_block[apply-sysctl-params] action nothing (skipped due to action :nothing)
+I, [2016-01-04T10:07:26.229720 #24430]  INFO -- default-centos-67:   * template[/etc/sysctl.d/99-chef-attributes.conf] action nothing (skipped due to action :nothing)
+I, [2016-01-04T10:07:26.229740 #24430]  INFO -- default-centos-67: Recipe: sysctl::apply
+I, [2016-01-04T10:07:26.230018 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:26.230047 #24430]  INFO -- default-centos-67:     - execute the ruby block notify-apply-sysctl-params
+I, [2016-01-04T10:07:26.230984 #24430]  INFO -- default-centos-67: Recipe: sysctl::default
+I, [2016-01-04T10:07:26.231016 #24430]  INFO -- default-centos-67:   * ruby_block[apply-sysctl-params] action run
+I, [2016-01-04T10:07:26.231032 #24430]  INFO -- default-centos-67:     - execute the ruby block apply-sysctl-params
+I, [2016-01-04T10:07:26.235372 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:26.235410 #24430]  INFO -- default-centos-67:     - create new file /etc/sysctl.d/99-chef-attributes.conf
+I, [2016-01-04T10:07:26.235428 #24430]  INFO -- default-centos-67:     - update content in file /etc/sysctl.d/99-chef-attributes.conf from none to 441256
+I, [2016-01-04T10:07:26.235442 #24430]  INFO -- default-centos-67:     --- /etc/sysctl.d/99-chef-attributes.conf	2016-01-04 10:06:03.000000000 -0500
+I, [2016-01-04T10:07:26.235455 #24430]  INFO -- default-centos-67:     +++ /etc/sysctl.d/.99-chef-attributes.conf20160104-2862-wmxfyg	2016-01-04 10:06:03.000000000 -0500
+I, [2016-01-04T10:07:26.235467 #24430]  INFO -- default-centos-67:     @@ -1 +1,11 @@
+I, [2016-01-04T10:07:26.235480 #24430]  INFO -- default-centos-67:     +# Dynamically generated file dropped off by Chef!
+I, [2016-01-04T10:07:26.235491 #24430]  INFO -- default-centos-67:     +
+I, [2016-01-04T10:07:26.235503 #24430]  INFO -- default-centos-67:     +net.core.somaxconn=10240
+I, [2016-01-04T10:07:26.235515 #24430]  INFO -- default-centos-67:     +net.ipv4.tcp_fin_timeout=30
+I, [2016-01-04T10:07:26.235526 #24430]  INFO -- default-centos-67:     +net.ipv4.tcp_keepalive_intvl=15
+I, [2016-01-04T10:07:26.235538 #24430]  INFO -- default-centos-67:     +net.ipv4.tcp_keepalive_probes=3
+I, [2016-01-04T10:07:26.235549 #24430]  INFO -- default-centos-67:     +net.ipv4.tcp_keepalive_time=90
+I, [2016-01-04T10:07:26.235561 #24430]  INFO -- default-centos-67:     +net.ipv4.tcp_max_syn_backlog=2048
+I, [2016-01-04T10:07:26.235572 #24430]  INFO -- default-centos-67:     +net.nf_conntrack_max=250000
+I, [2016-01-04T10:07:26.235583 #24430]  INFO -- default-centos-67:     +
+I, [2016-01-04T10:07:26.333498 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:26.334276 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:26.335402 #24430]  INFO -- default-centos-67: Recipe: sysctl::service
+I, [2016-01-04T10:07:26.482385 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:26.483113 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:26.484152 #24430]  INFO -- default-centos-67: Recipe: chef-sugar::default
+I, [2016-01-04T10:07:26.494154 #24430]  INFO -- default-centos-67:  (up to date)
+I, [2016-01-04T10:07:26.494962 #24430]  INFO -- default-centos-67: Recipe: firewall::default
+I, [2016-01-04T10:07:26.498199 #24430]  INFO -- default-centos-67: 
+I, [2016-01-04T10:07:26.498246 #24430]  INFO -- default-centos-67:     - install iptables and enable/start services

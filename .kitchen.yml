@@ -1,0 +1,21 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: centos-6.7
+    driver:
+      box: centos-67
+      box_url: https://deploy.gmti.gbahn.net/Images/CentOS6/vagrant/centos67-cloud-1.0.0.box
+suites:
+  - name: default
+    run_list:
+      - recipe[gd-test-helper]
+      - recipe[cps-oembed]
+    attributes:
+      uwsgi:
+        version: '2.0.8.1'
+        pip_options: '--index=https://pypi.gannettdigital.com/simple/'
