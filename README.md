@@ -11,7 +11,7 @@ Usage
 -----
 #### cps-oembed::default
 
-Just include `appserv-feeds` in your node's `run_list`:
+Just include `cps-oembed` in your node's `run_list`:
 
 ```json
 {
